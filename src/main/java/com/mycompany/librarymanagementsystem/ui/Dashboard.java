@@ -345,13 +345,6 @@ public class Dashboard extends JFrame {
         welcomeText.add(Box.createVerticalStrut(8));
         welcomeText.add(subtitle);
 
-        JLabel date = new JLabel("  Wednesday  |  Library Dashboard");
-        date.setForeground(new Color(65, 105, 160));
-        date.setFont(new Font("SansSerif", Font.PLAIN, 14));
-
-        welcome.add(welcomeText, BorderLayout.WEST);
-        welcome.add(date, BorderLayout.EAST);
-
         // ---------- SUMMARY CARDS ----------
         // Four cards are arranged horizontally
         JPanel stats = new JPanel(new GridLayout(1, 4, 15, 0));
