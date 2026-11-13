@@ -13,6 +13,8 @@ The system helps librarians maintain accurate records, track issued books, monit
 ### 🔐 Authentication
 - First-time administrator registration
 - Secure administrator login
+        username = admin
+        password = admin123
 - Change password functionality
 - Logout functionality
 - Password hashing for improved security
@@ -147,7 +149,3 @@ Through this project, I gained practical experience in:
 
 Januka Kaveen Nandasiri,
 Developed as a practical software development project to improve my knowledge of Java application development and database management.
-
-## 📄 License
-
-This project is available for educational and learning purposes.
