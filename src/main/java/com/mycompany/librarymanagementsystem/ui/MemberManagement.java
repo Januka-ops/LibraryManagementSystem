@@ -112,7 +112,7 @@ public class MemberManagement extends JPanel {
         addFormField(fields, "Address", txtAddress);
 
         JPanel buttons = new JPanel(
-                new FlowLayout(FlowLayout.LEFT, 10, 0)
+                new FlowLayout(FlowLayout.LEFT, 10, 25)
         );
         buttons.setOpaque(false);
 
